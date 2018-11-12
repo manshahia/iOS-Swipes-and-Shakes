@@ -12,6 +12,11 @@
 		3270132021992757009B256D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3270131E21992757009B256D /* Main.storyboard */; };
 		3270132221992757009B256D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3270132121992757009B256D /* Assets.xcassets */; };
 		3270132521992757009B256D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3270132321992757009B256D /* LaunchScreen.storyboard */; };
+		3270133121992ACE009B256D /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3270132C21992ACA009B256D /* 3.mp3 */; };
+		3270133221992ACE009B256D /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3270132D21992ACB009B256D /* 2.mp3 */; };
+		3270133321992ACE009B256D /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3270132E21992ACC009B256D /* 1.mp3 */; };
+		3270133421992ACE009B256D /* 4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3270132F21992ACD009B256D /* 4.mp3 */; };
+		3270133521992ACE009B256D /* 5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3270133021992ACD009B256D /* 5.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		3270132121992757009B256D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3270132421992757009B256D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3270132621992757009B256D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3270132C21992ACA009B256D /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		3270132D21992ACB009B256D /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		3270132E21992ACC009B256D /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		3270132F21992ACD009B256D /* 4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 4.mp3; sourceTree = "<group>"; };
+		3270133021992ACD009B256D /* 5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 5.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 		3270131921992757009B256D /* Swipes and Shakes */ = {
 			isa = PBXGroup;
 			children = (
+				3270132E21992ACC009B256D /* 1.mp3 */,
+				3270132D21992ACB009B256D /* 2.mp3 */,
+				3270132C21992ACA009B256D /* 3.mp3 */,
+				3270132F21992ACD009B256D /* 4.mp3 */,
+				3270133021992ACD009B256D /* 5.mp3 */,
 				3270131A21992757009B256D /* AppDelegate.swift */,
 				3270131C21992757009B256D /* ViewController.swift */,
 				3270131E21992757009B256D /* Main.storyboard */,
@@ -123,8 +138,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3270133521992ACE009B256D /* 5.mp3 in Resources */,
+				3270133321992ACE009B256D /* 1.mp3 in Resources */,
 				3270132521992757009B256D /* LaunchScreen.storyboard in Resources */,
 				3270132221992757009B256D /* Assets.xcassets in Resources */,
+				3270133221992ACE009B256D /* 2.mp3 in Resources */,
+				3270133421992ACE009B256D /* 4.mp3 in Resources */,
+				3270133121992ACE009B256D /* 3.mp3 in Resources */,
 				3270132021992757009B256D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
